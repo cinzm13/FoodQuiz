@@ -1,0 +1,28 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+}
+
+#quiz-container{
+    background-color: #CAF0F8;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.btn{
+    cursor: pointer;
+}
+
+.btn-container{
+    list-style: none;
+}
+
+.btn-container li{
+    margin-bottom: 6px;
+}
